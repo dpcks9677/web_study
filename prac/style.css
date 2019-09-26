@@ -1,9 +1,10 @@
 #title {
-  font-family: "fonts/NanumGothic";
+  font-family: "fonts/NanumGothic.ttf";
   font-size:40px;
   font-weight:bold;
 
   text-align:center;
+  color:white;
 
   padding-top:10px;
   padding-bottom:10px;
@@ -14,6 +15,7 @@
 #grid {
   display: grid;
   grid-template-columns: 150px 1fr;
+  color:white;
 }
 
 #grid ol {
@@ -31,4 +33,22 @@
 
 .center {
   text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  } to {
+    opacity:1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  animation:fadeIn.7s linear;
+  z-index: -1;
 }
