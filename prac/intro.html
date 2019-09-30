@@ -2,28 +2,35 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <title>introduction</title>
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean" rel="stylesheet">
+    <title>index</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="title">
-      Introducing Yechan
-    </div>
-    <div id="grid">
-      <ol start=0;>
-        <li><a href="index.html">INDEX</a></li>
-        <li><a href="intro.html">INTRODUCTION</a></li>
-        <li><a href="work.html">WORK</a></li>
-      </ol>
-      <div id="article">
-        <span style="font-weight:bold">Name</span> : Yechan Kim<br>
-        <span style="font-weight:bold">Age</span> : 20<br>
-        <span style="font-weight:bold">Univ</span> : University of Suwon<br>
-        <span style="font-weight:bold">Major</span> : Computer<br>
-        <span style="font-weight:bold">e-mail</span> : yechann.dev@gmail.com<br>
-        <script src="bg.js"></script>
+    <header style="background: #000000 url(src/banner.jpg)">
+      <div class="wrap">
+        <nav id="menuBar">
+          <ul>
+            <li><a class="menuLink" href="index.html">목차</a></li>
+            <li><a class="menuLink" href="intro.html">소개</a></li>
+            <li><a class="menuLink" href="work.html">작품</a></li>
+          </ul>
+        </nav>
       </div>
+      <div class="align">
+        <img src="src/logo.png" class="logo">
+        <div id="title">
+          <h1 style="margin:0px">예찬쓰의 홈페이지에 오신것을 환영합니다!<br>
+          Welcome to Yechann's Homepage!</h1>
+        </div>
+      </div>
+    </header>
+    <div id="article" class="center">
+      <span style="font-weight:bold">Name</span> : Yechan Kim<br>
+      <span style="font-weight:bold">Age</span> : 20<br>
+      <span style="font-weight:bold">Univ</span> : University of Suwon<br>
+      <span style="font-weight:bold">Major</span> : Computer<br>
+      <span style="font-weight:bold">e-mail</span> : yechann.dev@gmail.com<br>
+      <script src="bg.js"></script>
     </div>
   </body>
 </html>
