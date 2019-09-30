@@ -30,12 +30,14 @@ body {
 }
 
 .icon {
-  height: 56px;
+  height: 32px;
 }
 
 .insta {
+  width: 220px;
+  color: white;
   font-family: NotoSans;
-  font-size: 56px;
+  font-size: 32px;
   font-align: center;
 }
 
@@ -49,6 +51,11 @@ body {
 
 img .center {
   text-align: center;
+}
+
+.white {
+  text-decoration: none;
+  color: white;
 }
 
 @keyframes fadeIn {
