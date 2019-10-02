@@ -34,8 +34,10 @@ body {
 }
 
 .insta {
+  color :white;
   width: 220px;
-  color: white;
+  margin:
+  display: block;
   font-family: NotoSans;
   font-size: 32px;
   font-align: center;
