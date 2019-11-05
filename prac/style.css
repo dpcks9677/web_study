@@ -11,12 +11,18 @@
 body {
   margin: 0px;
 }
+.container {
+  position: relative;
+  width: 1200px;
+  height: 400px;
+}
 
 .align {
-  position: relative;
-  left: 100px;
-  top: 50px;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #title {
   position: relative;
@@ -27,6 +33,9 @@ body {
 
   text-align:left;
   color:white;
+
+  width: 1000px;
+  height: 150px;
 }
 
 .logo {
@@ -63,14 +72,6 @@ img .center {
 .white {
   text-decoration: none;
   color: white;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity:0;
-  } to {
-    opacity:1;
-  }
 }
 
 .bgImage {
@@ -117,11 +118,12 @@ header .wrap {
 }
 
 #sideBar {
-  height: 75px;
-  width: 850px;
+  height: 60px;
+  width: 1960px;
 }
 
 #sideBar .wrap {
+  display: grid;
   height: 50px;
   border-bottom: 1px solid black;
 }
