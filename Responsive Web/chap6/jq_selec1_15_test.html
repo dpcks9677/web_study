@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>가장 가까운 상위요소 선택자</title>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function() {
+            $(".txt1").closest("div")
+            .css({
+                "border":"2px dashed #00f"
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 class="title">선택자</h1>
+    <div>
+        <div>
+            <p class="txt1">내용</p>
+        </div>
+    </div>
+</body>
+</html>

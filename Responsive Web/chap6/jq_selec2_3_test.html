@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>eq/lt/gt 탐색 선택자 (index)</title>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function() {
+        $("#menu li").eq()
+        .css({"background-color":"#ff0"});
+
+        $("#menu li:lt(2)")
+        .css({"background-color":"#0ff"});
+
+        $("#menu li:gt(2)")
+        .css({"background-color":"#f0f"});
+        })
+    </script>
+</head>
+<body>
+    <h1>탐색 선택자</h1>
+    <ul id="menu">
+        <li>내용1</li>
+        <li>내용2</li>
+        <li>내용3</li>
+        <li>내용4</li>
+        <li>내용5</li>
+    </ul>
+</body>
+</html>
