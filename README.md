@@ -4,15 +4,15 @@
 
 # 이용한 교재 :
 
-## 생활코딩 HTML + CSS
+생활코딩 HTML + CSS
 
-## Nomad Coder : 바닐라 JS로 크롬 앱 만들기
+Nomad Coder : 바닐라 JS로 크롬 앱 만들기
 
-## Do it! 자바스크립트 + 제이쿼리 입문
+Do it! 자바스크립트 + 제이쿼리 입문
 
 
 # 현재 할 일
 
-## Jquery 공부
+Jquery 공부
 
-## 반응형 웹 디자인
+반응형 웹 디자인
